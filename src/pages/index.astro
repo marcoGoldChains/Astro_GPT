@@ -1,8 +1,10 @@
 ---
 import Layout from '@layouts/Layout.astro';
-
+import Dalle from '@components/Dalle.svelte';
 ---
 
-<Layout title="Welcome to Astro.">
-	
+<Layout title="Images with IA">
+	<div class="mt-4">
+        <Dalle client:load/>
+    </div>
 </Layout>
